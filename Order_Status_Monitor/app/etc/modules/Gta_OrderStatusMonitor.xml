@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gta_OrderStatusMonitor>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Gta_OrderStatusMonitor>
+    </modules>
+</config>

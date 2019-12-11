@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gta_MatchProductOrder>
+            <version>1.0.0</version>
+        </Gta_MatchProductOrder>
+    </modules>
+    <global>
+        <models>
+            <gta_matchproductorder>
+                <class>Gta_MatchProductOrder_Model</class>
+            </gta_matchproductorder>
+        </models>
+        <events>
+            <checkout_submit_all_after>
+                <observers>
+                    <Gta_MatchProductOrder_Model_Observer>    
+                        <type>singleton</type>
+                        <class>Gta_MatchProductOrder_Model_Observer</class>
+                        <method>checkproductinorder</method>
+                    </Gta_MatchProductOrder_Model_Observer>
+                </observers>
+            </checkout_submit_all_after>
+        </events>
+    </global>
+</config>
+
