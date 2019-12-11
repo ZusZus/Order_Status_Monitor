@@ -10,14 +10,6 @@
         			 Mage::log($status,null,'orderstatus.log',true);
 			}
 
-
-   			### start test observer ###
-
-            // $order = $Observer->getEvent();
-
-            // Mage::log($order->getName(),null,'orderproduct.log');
-
-            ### end test observer ###
         }
     }
 ?>
