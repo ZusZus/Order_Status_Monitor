@@ -6,8 +6,8 @@
 
         	public function checkorderstatus(Varien_Event_Observer $observer)
 			{
-   				$status = $observer->getEvent()->getOrder()->getStatus();
-   				Mage::log($status(),null,'orderstatus.log');
+   				 $status = $observer->getEvent()->getOrder()->getStatus();
+        			 Mage::log($status,null,'orderstatus.log',true);
 			}
 
 
